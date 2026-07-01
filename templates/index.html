@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimberly Ajiboye — Frontend & Python Developer</title>
+    <meta name="description"
+          content="Kimberly Ajiboye is a Frontend Developer, Python Developer, and aspiring AI & Automation Engineer building modern web apps, APIs, automation tools, and AI-powered solutions.">
+    <meta name="keywords"
+          content="Kimberly Ajiboye, Frontend Developer, Python Developer, Automation Engineer, React Developer, AI, Web Scraping, Portfolio">
+    <meta name="author" content="Kimberly Ajiboye">
+    <meta property="og:title" content="Kimberly Ajiboye — Frontend & Python Developer">
+    <meta property="og:description"
+          content="Building modern web applications, Python software, automation tools, APIs, and AI-powered solutions.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#070a14">
+    <link rel="icon"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩🏽‍💻</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+<!-- ============================== NAV ============================== -->
+<header class="nav">
+    <nav class="nav-links" aria-label="Primary" id="siteNav">
+        <a href="#projects"><span class="num">01.</span>Projects</a>
+        <a href="#about"><span class="num">02.</span>About</a>
+        <a href="#skills"><span class="num">03.</span>Skills</a>
+        <a href="#journey"><span class="num">04.</span>Journey</a>
+        <a href="#github"><span class="num">05.</span>GitHub</a>
+        <a href="#contact"><span class="num">06.</span>Contact</a>
+    </nav>
+    <div class="nav-mobile">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#projects">01. Projects</a>
+        <a href="#about">02. About</a>
+        <a href="#skills">03. Skills</a>
+        <a href="#journey">04. Journey</a>
+        <a href="#github">05. GitHub</a>
+        <a href="#contact">06. Contact</a>
+    </div>
+</header>
+
+<main>
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-copy">
+                <!--        <span class="hero-kicker"><span class="dot"></span>Open to new opportunities</span>-->
+                <h1>Hi, I'm <br><span class="gradient-text">Kimberly Ajiboye.</span></h1>
+                <!--        <p class="hero-role">Frontend Developer <span class="sep">/</span> Automation Engineer</p>-->
+                <p class="hero-intro">I build modern web applications, automation tools, and APIs</p>
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+                <!--        <a href="#projects" class="btn btn-primary">-->
+                <!--            View Projects-->
+                <!--            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>-->
+                <!--          </a>-->
+                <!--        <div class="hero-ctas">-->
+                <!--          -->
+
+                <!--          <a href="resume-kimberly-ajiboye.pdf" download class="btn btn-ghost">-->
+                <!--            Download Resume-->
+                <!--            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>-->
+                <!--          </a>-->
+                <!--        </div>-->
+                <!--        <div class="hero-stats">-->
+                <!--          <div><div class="stat-num">10+</div><div class="stat-label">Projects built</div></div>-->
+                <!--          <div><div class="stat-num">5+</div><div class="stat-label">Automation tools shipped</div></div>-->
+                <!--          <div><div class="stat-num">AI/ML</div><div class="stat-label">Currently deepening</div></div>-->
+                <!--        </div>-->
+            </div>
+
+            <!--      <div class="hero-visual">-->
+            <!--        <div class="code-window">-->
+            <!--          <div class="code-titlebar">-->
+            <!--            <div class="code-dots"><span></span><span></span><span></span></div>-->
+            <!--            <div class="code-tabs">-->
+            <!--              <span class="tab active">profile.js</span>-->
+            <!--              <span class="tab">automate.py</span>-->
+            <!--            </div>-->
+            <!--          </div>-->
+            <!--&lt;!&ndash;          <div class="code-body">&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">1</span><span class="kw">const</span> kimberly = {<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">2</span>&nbsp;&nbsp;<span class="prop">role</span>: [<span class="str">'Frontend Dev'</span>, <span class="str">'Python Dev'</span>],<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">3</span>&nbsp;&nbsp;<span class="prop">focus</span>: <span class="str">'Automation Engineer'</span>,<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">4</span>&nbsp;&nbsp;<span class="prop">stack</span>: {<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">5</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">frontend</span>: [<span class="str">'React'</span>, <span class="str">'Next.js'</span>, <span class="str">'TS'</span>],<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">6</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">backend</span>: [<span class="str">'Python'</span>, <span class="str">'Flask'</span>, <span class="str">'FastAPI'</span>],<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">7</span>&nbsp;&nbsp;},<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">8</span>&nbsp;&nbsp;<span class="prop">currentlyLearning</span>: <span class="str">'AI & Machine Learning'</span>,<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">9</span>&nbsp;&nbsp;<span class="prop">loves</span>: [<span class="str">'clean code'</span>, <span class="str">'solving problems'</span>],<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">10</span>&nbsp;&nbsp;<span class="com">// always building something new</span><br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">11</span>&nbsp;&nbsp;<span class="prop">status</span>: <span class="str">'available'</span>,<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">12</span>};<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">13</span><br>&ndash;&gt;-->
+            <!--&lt;!&ndash;  <span class="ln">14</span><span class="kw">export default</span> <span class="fn">kimberly</span>;<span class="cur"></span>&ndash;&gt;-->
+            <!--&lt;!&ndash;          </div>&ndash;&gt;-->
+            <!--        </div>-->
+            <!--      </div>-->
+            <!--    </div>-->
+    </section>
+
+    <!-- ============================== PROJECTS ============================== -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-head center reveal">
+                <!--        <div class="eyebrow" style="justify-content:center">03. projects</div>-->
+                <h2 class="section-title">Featured projects</h2>
+                <p class="section-sub">A mix of frontend builds, Python tools, and automation scripts — filter by
+                    category below.</p>
+            </div>
+
+            <div class="filter-bar reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+            <div class="projects-grid">
+
+                <article class="project-card glass" data-tags="frontend">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.html</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#7ea2ff" stroke-width="1.5">
+                            <rect x="3" y="4" width="18" height="16" rx="2"/>
+                            <path d="M3 9h18M8 4v5"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Modern Business Landing Page</h3>
+                        <p class="project-desc">A pixel-perfect, fully responsive marketing landing page with smooth
+                            scroll animations and strong Lighthouse performance scores.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">HTML5</span><span class="stack-chip">CSS3</span><span
+                                class="stack-chip">JavaScript</span><span class="stack-chip">GSAP</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                                Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass" data-tags="frontend fullstack">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.jsx</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#c495ff" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="2.5"/>
+                            <ellipse cx="12" cy="12" rx="10" ry="4.2"/>
+                            <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(60 12 12)"/>
+                            <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(120 12 12)"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">React Portfolio Website</h3>
+                        <p class="project-desc">A component-driven personal portfolio built with React and Tailwind CSS,
+                            featuring dark mode and animated page transitions.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">React</span><span class="stack-chip">Tailwind CSS</span><span
+                                class="stack-chip">Framer Motion</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass" data-tags="frontend">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.js</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#7ea2ff" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="5"/>
+                            <path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-desc">A location-aware weather dashboard consuming a public REST API, with
+                            animated conditions and unit toggling.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">JavaScript</span><span class="stack-chip">REST API</span><span
+                                class="stack-chip">Chart.js</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass" data-tags="frontend backend fullstack">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.tsx</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#c495ff" stroke-width="1.5">
+                            <rect x="3" y="4" width="7" height="16" rx="1.5"/>
+                            <rect x="14" y="4" width="7" height="9" rx="1.5"/>
+                            <rect x="14" y="16" width="7" height="4" rx="1.5"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-desc">A drag-and-drop task board with authentication and a Python API backend
+                            for syncing boards across sessions.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">React</span><span class="stack-chip">FastAPI</span><span
+                                class="stack-chip">PostgreSQL</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass" data-tags="python automation">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.py</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#9fe6a0" stroke-width="1.5">
+                            <rect x="5" y="11" width="14" height="9" rx="2"/>
+                            <path d="M8 11V7a4 4 0 0 1 8 0v4"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Password Breach Checker</h3>
+                        <p class="project-desc">A CLI and web tool that checks whether a password has appeared in known
+                            data breaches via hashed API lookups — the raw password never leaves the device.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">Python</span><span class="stack-chip">Requests</span><span
+                                class="stack-chip">Flask</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass" data-tags="python automation">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.py</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#9fe6a0" stroke-width="1.5">
+                            <rect x="3" y="5" width="18" height="14" rx="2"/>
+                            <path d="m3 7 9 6 9-6"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Email Automation Tool</h3>
+                        <p class="project-desc">Automates personalized, scheduled emails from a spreadsheet of
+                            recipients, with templating and a delivery log.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">Python</span><span class="stack-chip">SMTP</span><span
+                                class="stack-chip">Pandas</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass" data-tags="python automation">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.py</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#9fe6a0" stroke-width="1.5">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <path d="M14 2v6h6"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">PDF Automation Toolkit</h3>
+                        <p class="project-desc">A batch utility for merging, splitting, watermarking, and extracting
+                            data from PDFs — built to remove repetitive document handling.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">Python</span><span class="stack-chip">PyPDF</span><span
+                                class="stack-chip">Regex</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass" data-tags="backend python fullstack">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.py</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#7ea2ff" stroke-width="1.5">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Expense Tracker API</h3>
+                        <p class="project-desc">A RESTful expense-tracking API with category budgets, JWT
+                            authentication, and endpoints for monthly spend reports.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">Python</span><span class="stack-chip">FastAPI</span><span
+                                class="stack-chip">SQLite</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass" data-tags="ai python">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.py</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#c495ff" stroke-width="1.5">
+                            <rect x="4" y="7" width="16" height="12" rx="2"/>
+                            <path d="M9 13v-1M15 13v-1M12 3v4M9 21h6"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">AI Chatbot</h3>
+                        <p class="project-desc">A context-aware chatbot built on a language-model API, wrapped in a
+                            lightweight Python backend with a simple chat interface.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">Python</span><span class="stack-chip">LLM API</span><span
+                                class="stack-chip">FastAPI</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass" data-tags="python automation">
+                    <div class="project-thumb" style="background:linear-gradient(135deg,#1a2140,#2a1f4d)">
+                        <span class="project-ext">.py</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#9fe6a0" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="7"/>
+                            <path d="m21 21-4.3-4.3"/>
+                        </svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Web Scraper</h3>
+                        <p class="project-desc">A resilient scraping toolkit using Selenium and BeautifulSoup to collect
+                            data from dynamic sites into clean CSV exports.</p>
+                        <div class="project-stack">
+                            <span class="stack-chip">Python</span><span class="stack-chip">Selenium</span><span
+                                class="stack-chip">BeautifulSoup</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-ghost btn-sm">Code</a>
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== ABOUT ============================== -->
+    <section id="about">
+        <div class="container">
+            <!--      <div class="about-card glass reveal">-->
+            <!--        <div class="about-avatar" aria-hidden="true">KA</div>-->
+            <!--        <ul class="about-meta">-->
+            <!--          <li><span>Role</span><b>Frontend &amp; Python Dev</b></li>-->
+            <!--          <li><span>Focus</span><b>Web · Automation · APIs</b></li>-->
+            <!--          <li><span>Learning</span><b>AI &amp; Machine Learning</b></li>-->
+            <!--          <li><span>Location</span><b>Remote-friendly</b></li>-->
+            <!--          <li><span>Status</span><b style="color:var(&#45;&#45;green)">Open to work</b></li>-->
+            <!--        </ul>-->
+            <!--      </div>-->
+
+            <div class="about-body">
+                <div class="section-head center">
+                    <div class="eyebrow">02. about</div>
+                    <h2 class="section-title">A developer who likes things <span class="gradient-text">clean, fast, and working.</span>
+                    </h2>
+                </div>
+                <p>I'm Kimberly — a <strong>Frontend Developer</strong> and <strong>Python Developer</strong> who enjoys
+                    turning ideas into interfaces people actually want to use, and turning repetitive work into scripts
+                    that run themselves. My frontend work centers on building <strong>responsive, accessible web
+                        applications</strong> with React, Next.js, and modern CSS — the kind of interfaces that feel
+                    considered on a phone and on a 27-inch monitor alike.</p>
+                <p>On the backend, I write <strong>Python</strong> to build APIs with Flask and FastAPI, automate
+                    tedious workflows, and wrangle data with tools like Pandas, Selenium, and BeautifulSoup. I like the
+                    discipline of <strong>clean, maintainable code</strong> — code that a teammate (or future me) can
+                    read without a decoder ring — and I bring the same care to <strong>problem solving</strong> whether
+                    the bug is in a CSS grid or a broken API response.</p>
+                <p>I'm a <strong>continuous learner</strong> by default — I'm currently deepening my skills in <strong>AI
+                    and machine learning</strong>, with the goal of building intelligent automation that goes beyond
+                    simple scripts. Frontend, backend, or somewhere in between: I care about shipping software that
+                    works, reads well, and respects the person using it.</p>
+
+                <div class="about-highlights reveal-stagger">
+                    <div class="highlight-card glass">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                                <path d="M8 21h8M12 17v4"/>
+                            </svg>
+                        </div>
+                        <div><h4>Frontend craft</h4>
+                            <p>Responsive, accessible interfaces built with React &amp; modern CSS.</p></div>
+                    </div>
+                    <div class="highlight-card glass">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 3H5a2 2 0 0 0-2 2v4M15 3h4a2 2 0 0 1 2 2v4M9 21H5a2 2 0 0 1-2-2v-4M15 21h4a2 2 0 0 0 2-2v-4"/>
+                            </svg>
+                        </div>
+                        <div><h4>Python &amp; automation</h4>
+                            <p>Scripts, scrapers, and workflows that remove repetitive work.</p></div>
+                    </div>
+                    <div class="highlight-card glass">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12.5a7.5 7.5 0 1 1 4.24 6.76L5 20l1.24-3.76A7.46 7.46 0 0 1 5 12.5z"/>
+                                <path d="M9 12h6M12 9v6"/>
+                            </svg>
+                        </div>
+                        <div><h4>APIs &amp; backend</h4>
+                            <p>REST services with Flask and FastAPI, built for real use.</p></div>
+                    </div>
+                    <div class="highlight-card glass">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a10 10 0 1 0 10 10M12 2v10l7 7"/>
+                            </svg>
+                        </div>
+                        <div><h4>Always learning</h4>
+                            <p>Currently deepening AI &amp; machine learning fundamentals.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== SKILLS ============================== -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-head center reveal">
+                <div class="eyebrow" style="justify-content:center">02. skills</div>
+                <h2 class="section-title">What I work with</h2>
+                <p class="section-sub">A snapshot of the languages, frameworks, and tools in my day-to-day toolkit.</p>
+            </div>
+
+            <div class="skills-shell glass reveal" id="skillsCard">
+                <div class="skills-tree" role="tablist" aria-label="Skill categories">
+                    <button class="tree-item active" data-target="grp-frontend" role="tab" aria-selected="true">
+                        <svg class="folder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        Frontend <span class="count">8</span>
+                    </button>
+                    <button class="tree-item" data-target="grp-backend" role="tab" aria-selected="false">
+                        <svg class="folder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        Backend <span class="count">4</span>
+                    </button>
+                    <button class="tree-item" data-target="grp-libraries" role="tab" aria-selected="false">
+                        <svg class="folder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        Python Libraries <span class="count">7</span>
+                    </button>
+                    <button class="tree-item" data-target="grp-tools" role="tab" aria-selected="false">
+                        <svg class="folder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        Tools <span class="count">7</span>
+                    </button>
+                    <button class="tree-item" data-target="grp-concepts" role="tab" aria-selected="false">
+                        <svg class="folder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        Concepts <span class="count">10</span>
+                    </button>
+                </div>
+
+                <div class="skills-panel">
+                    <div class="skill-group active" id="grp-frontend">
+                        <div class="skill-group-title">/skills/frontend</div>
+                        <div class="skill-list">
+                            <div class="skill-row"><span class="skill-name">HTML5</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">CSS3</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">JavaScript (ES6+)</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">TypeScript</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="78%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">React</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="86%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">Next.js</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="76%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">Tailwind CSS</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">Bootstrap</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="82%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-group" id="grp-backend">
+                        <div class="skill-group-title">/skills/backend</div>
+                        <div class="skill-list">
+                            <div class="skill-row"><span class="skill-name">Python</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">Flask</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">FastAPI</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="74%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-row"><span class="skill-name">REST APIs</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" data-pct="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-group" id="grp-libraries">
+                        <div class="skill-group-title">/skills/python-libraries</div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><span class="dot"></span>Pandas</span>
+                            <span class="skill-tag"><span class="dot"></span>NumPy</span>
+                            <span class="skill-tag"><span class="dot"></span>Requests</span>
+                            <span class="skill-tag"><span class="dot"></span>BeautifulSoup</span>
+                            <span class="skill-tag"><span class="dot"></span>Selenium</span>
+                            <span class="skill-tag"><span class="dot"></span>Playwright</span>
+                            <span class="skill-tag"><span class="dot"></span>Regex</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group" id="grp-tools">
+                        <div class="skill-group-title">/skills/tools</div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><span class="dot"></span>Git</span>
+                            <span class="skill-tag"><span class="dot"></span>GitHub</span>
+                            <span class="skill-tag"><span class="dot"></span>VS Code</span>
+                            <span class="skill-tag"><span class="dot"></span>PyCharm</span>
+                            <span class="skill-tag"><span class="dot"></span>Linux</span>
+                            <span class="skill-tag"><span class="dot"></span>Docker <em
+                                    style="opacity:.6;font-style:normal">(learning)</em></span>
+                            <span class="skill-tag"><span class="dot"></span>Figma</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group" id="grp-concepts">
+                        <div class="skill-group-title">/skills/concepts</div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><span class="dot"></span>Responsive Design</span>
+                            <span class="skill-tag"><span class="dot"></span>UI/UX</span>
+                            <span class="skill-tag"><span class="dot"></span>API Integration</span>
+                            <span class="skill-tag"><span class="dot"></span>Web Scraping</span>
+                            <span class="skill-tag"><span class="dot"></span>Automation</span>
+                            <span class="skill-tag"><span class="dot"></span>Object-Oriented Programming</span>
+                            <span class="skill-tag"><span class="dot"></span>Data Structures &amp; Algorithms</span>
+                            <span class="skill-tag"><span class="dot"></span>File Handling</span>
+                            <span class="skill-tag"><span class="dot"></span>Authentication</span>
+                            <span class="skill-tag"><span class="dot"></span>Deployment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== JOURNEY / TIMELINE ============================== -->
+    <section id="journey">
+        <div class="container">
+            <div class="section-head center reveal">
+                <div class="eyebrow" style="justify-content:center">04. journey</div>
+                <h2 class="section-title">Experience &amp; learning journey</h2>
+                <p class="section-sub">How my skill set has grown, one stage at a time.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">2022</div>
+                        <h4>Frontend Development</h4>
+                        <p>Learned HTML5, CSS3, and JavaScript fundamentals — started building static, responsive
+                            pages.</p></div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">2022</div>
+                        <h4>Advanced JavaScript</h4>
+                        <p>Went deeper into ES6+, async patterns, and DOM manipulation for more interactive
+                            interfaces.</p></div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">2023</div>
+                        <h4>React &amp; Next.js</h4>
+                        <p>Moved to component-based architecture, building SPAs and server-rendered apps with React and
+                            Next.js.</p></div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">2023</div>
+                        <h4>Python Fundamentals</h4>
+                        <p>Picked up Python — syntax, data structures, and scripting for everyday problem solving.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">2023</div>
+                        <h4>Advanced Python</h4>
+                        <p>OOP, file handling, and working with libraries like Pandas and NumPy for real data tasks.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">2024</div>
+                        <h4>Automation</h4>
+                        <p>Built scripts with Selenium, Playwright, and BeautifulSoup to automate scraping and
+                            repetitive workflows.</p></div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">2024</div>
+                        <h4>APIs</h4>
+                        <p>Designed and consumed REST APIs — building backends with Flask and FastAPI, and integrating
+                            third-party services.</p></div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">2024</div>
+                        <h4>AI</h4>
+                        <p>Started exploring AI-powered features — prompting, LLM APIs, and integrating intelligence
+                            into apps.</p></div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">2025</div>
+                        <h4>Machine Learning</h4>
+                        <p>Currently studying core ML concepts and workflows to build smarter, data-driven tools.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item upcoming reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="timeline-year">Next</div>
+                        <h4>Cloud Computing</h4>
+                        <p>Planning to deepen deployment and cloud infrastructure skills to ship and scale projects
+                            end-to-end.</p><span class="badge-upcoming">Upcoming</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== CERTIFICATIONS ============================== -->
+    <section id="certifications">
+        <div class="container">
+            <div class="section-head center reveal">
+                <div class="eyebrow" style="justify-content:center">certifications</div>
+                <h2 class="section-title">Certifications &amp; courses</h2>
+                <p class="section-sub">Structured learning that backs up the hands-on work.</p>
+            </div>
+
+            <div class="certs-grid reveal-stagger">
+                <div class="cert-card glass">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M8.5 13.5 7 22l5-3 5 3-1.5-8.5"/>
+                        </svg>
+                    </div>
+                    <div><h4>Responsive Web Design</h4>
+                        <p class="cert-org">freeCodeCamp</p><span class="cert-date">2022</span></div>
+                </div>
+                <div class="cert-card glass">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M8.5 13.5 7 22l5-3 5 3-1.5-8.5"/>
+                        </svg>
+                    </div>
+                    <div><h4>JavaScript Algorithms &amp; Data Structures</h4>
+                        <p class="cert-org">freeCodeCamp</p><span class="cert-date">2022</span></div>
+                </div>
+                <div class="cert-card glass">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M8.5 13.5 7 22l5-3 5 3-1.5-8.5"/>
+                        </svg>
+                    </div>
+                    <div><h4>Python for Everybody</h4>
+                        <p class="cert-org">University of Michigan · Coursera</p><span class="cert-date">2023</span>
+                    </div>
+                </div>
+                <div class="cert-card glass">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M8.5 13.5 7 22l5-3 5 3-1.5-8.5"/>
+                        </svg>
+                    </div>
+                    <div><h4>React — The Complete Guide</h4>
+                        <p class="cert-org">Udemy</p><span class="cert-date">2023</span></div>
+                </div>
+                <div class="cert-card glass">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M8.5 13.5 7 22l5-3 5 3-1.5-8.5"/>
+                        </svg>
+                    </div>
+                    <div><h4>Automate the Boring Stuff with Python</h4>
+                        <p class="cert-org">Udemy</p><span class="cert-date">2024</span></div>
+                </div>
+                <div class="cert-card glass">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M8.5 13.5 7 22l5-3 5 3-1.5-8.5"/>
+                        </svg>
+                    </div>
+                    <div><h4>APIs and Web Services</h4>
+                        <p class="cert-org">Coursera</p><span class="cert-date">2024</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== GITHUB ============================== -->
+    <section id="github">
+        <div class="container">
+            <div class="section-head center reveal">
+                <div class="eyebrow" style="justify-content:center">05. github</div>
+                <h2 class="section-title">Code activity</h2>
+                <p class="section-sub">A live-style snapshot of contributions, language mix, and recent
+                    repositories.</p>
+            </div>
+
+            <div class="github-grid reveal-stagger">
+                <div class="gh-panel glass">
+                    <h4>Contribution activity</h4>
+                    <div class="contrib-graph" id="contribGraph"></div>
+                </div>
+
+                <div class="gh-panel glass">
+                    <h4>Repository stats</h4>
+                    <div class="gh-stat-row"><span>Public repos</span><b>24</b></div>
+                    <div class="gh-stat-row"><span>Total stars</span><b>38</b></div>
+                    <div class="gh-stat-row"><span>Total commits</span><b>640+</b></div>
+                    <div class="gh-stat-row"><span>Longest streak</span><b>21 days</b></div>
+                </div>
+
+                <div class="gh-panel glass">
+                    <h4>Most-used languages</h4>
+                    <div class="lang-bar" id="langBar"></div>
+                    <ul class="lang-legend" id="langLegend"></ul>
+                </div>
+
+                <div class="gh-panel glass" style="grid-column: 1 / -1;">
+                    <h4>Recent repositories</h4>
+                    <div class="repo-list">
+                        <div class="repo-item">
+                            <div>
+                                <div class="name">pdf-automation-toolkit</div>
+                                <div class="desc">Batch PDF merge, split &amp; watermark utility</div>
+                            </div>
+                            <div class="repo-meta"><span><span class="lang-dot" style="background:#5b8cff"></span>Python</span><span>★ 14</span>
+                            </div>
+                        </div>
+                        <div class="repo-item">
+                            <div>
+                                <div class="name">react-portfolio</div>
+                                <div class="desc">Personal portfolio site built with React</div>
+                            </div>
+                            <div class="repo-meta"><span><span class="lang-dot" style="background:#f5c451"></span>JavaScript</span><span>★ 9</span>
+                            </div>
+                        </div>
+                        <div class="repo-item">
+                            <div>
+                                <div class="name">expense-tracker-api</div>
+                                <div class="desc">FastAPI backend for tracking expenses</div>
+                            </div>
+                            <div class="repo-meta"><span><span class="lang-dot" style="background:#5b8cff"></span>Python</span><span>★ 7</span>
+                            </div>
+                        </div>
+                        <div class="repo-item">
+                            <div>
+                                <div class="name">weather-dashboard</div>
+                                <div class="desc">Weather forecast UI powered by a public API</div>
+                            </div>
+                            <div class="repo-meta"><span><span class="lang-dot" style="background:#a566ff"></span>TypeScript</span><span>★ 5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== TESTIMONIALS ============================== -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-head center reveal">
+                <div class="eyebrow" style="justify-content:center">testimonials</div>
+                <h2 class="section-title">What people say</h2>
+            </div>
+            <div class="testimonials-empty glass reveal">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M7 8h10M7 12h6M4 4h16v12H8l-4 4V4z"/>
+                </svg>
+                <h4>Testimonials coming soon</h4>
+                <p>I'm currently collecting feedback from collaborators and clients. Check back soon — or be the first
+                    to share yours after we work together.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== CONTACT ============================== -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-head center reveal">
+                <div class="eyebrow" style="justify-content:center">06. contact</div>
+                <h2 class="section-title">Let's build something together</h2>
+                <p class="section-sub">Have a project, a role, or just want to talk shop? My inbox is open.</p>
+            </div>
+
+            <div class="contact-grid reveal-stagger">
+                <div class="contact-info glass">
+                    <p>Whether it's a frontend build, a Python automation script, or an API that needs building — I'd
+                        love to hear about it.</p>
+
+                    <a href="mailto:kimberly.ajiboye.dev@gmail.com" class="contact-link">
+                        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect
+                                x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></span>
+                        <span><span class="label">Email</span><br><span
+                                class="value">kimberly.ajiboye.dev@gmail.com</span></span>
+                    </a>
+                    <a href="https://github.com/kimberlyajiboye" target="_blank" rel="noopener" class="contact-link">
+                        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></span>
+                        <span><span class="label">GitHub</span><br><span class="value">github.com/kimberlyajiboye</span></span>
+                    </a>
+                    <a href="https://linkedin.com/in/kimberlyajiboye" target="_blank" rel="noopener"
+                       class="contact-link">
+                        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path
+                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect
+                                x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
+                        <span><span class="label">LinkedIn</span><br><span
+                                class="value">linkedin.com/in/kimberlyajiboye</span></span>
+                    </a>
+                    <a href="https://x.com/kimberlyajidev" target="_blank" rel="noopener" class="contact-link">
+                        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path
+                                d="M18 2h3l-7.5 8.6L22 22h-6.9l-5.4-6.6L3.5 22H.5l8-9.2L2 2h7l4.9 6z"/></svg></span>
+                        <span><span class="label">X (Twitter)</span><br><span class="value">x.com/kimberlyajidev</span></span>
+                    </a>
+                </div>
+
+                <form action="/submit_form" method="post" class="contact-form glass" id="contactForm">
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"
+                                  placeholder="Tell me a bit about your project or opportunity..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Send Message
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m22 2-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                    </button>
+                    <div class="form-success" id="formSuccess">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <path d="m22 4-10 10-3-3"/>
+                        </svg>
+                        Thanks! Your message has been sent — I'll get back to you soon.
+                    </div>
+                    <p class="form-note">This form is a front-end demo. Connect it to your email service or a backend
+                        endpoint to receive messages.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- ============================== FOOTER ============================== -->
+<footer class="site-footer">
+    <div class="container">
+        <p class="footer-text">Designed and built by Kimberly Ajiboye. © <span id="year"></span> All rights reserved.
+        </p>
+        <div class="footer-social">
+            <a href="https://github.com/kimberlyajiboye" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+            </a>
+            <a href="https://linkedin.com/in/kimberlyajiboye" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                    <rect x="2" y="9" width="4" height="12"/>
+                    <circle cx="4" cy="4" r="2"/>
+                </svg>
+            </a>
+            <a href="https://x.com/kimberlyajidev" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 2h3l-7.5 8.6L22 22h-6.9l-5.4-6.6L3.5 22H.5l8-9.2L2 2h7l4.9 6z"/>
+                </svg>
+            </a>
+            <a href="mailto:kimberly.ajiboye.dev@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                    <path d="m2 7 10 6 10-6"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+</button>
+
+<script src="../static/script.js"></script>
+</body>
+</html>
